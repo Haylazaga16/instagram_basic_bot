@@ -10,8 +10,8 @@ time.sleep(2)
 username = browser.find_element_by_name("username")
 password = browser.find_element_by_name("password")
 
-username.send_keys("udemyicin")
-password.send_keys("selenium")
+username.send_keys("flexy.16")
+password.send_keys("026043gs")
 time.sleep(2)
 try:
     login = browser.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[3]")
